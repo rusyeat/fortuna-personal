@@ -9,9 +9,9 @@
 .header{background:#f0f5f8}
 .header .brand{padding:10px 0}
 .hero-stage{position:relative;isolation:isolate;overflow:hidden;background:linear-gradient(160deg,#f0f5f8 0%,#eaf2f6 39%,#f6f9fa 66%,#fff 100%)}
-.hero-wordmark{position:absolute;top:3.5rem;left:50%;transform:translateX(-50%);width:100%;z-index:-1;pointer-events:none;user-select:none;text-align:center;color:rgb(29 83 113 / 6.5%);font-size:clamp(7rem,20vw,21rem);font-weight:850;letter-spacing:-.06em;line-height:.85;white-space:nowrap}
+.hero-wordmark{position:absolute;top:3.5rem;left:50%;transform:translateX(-50%);width:100%;z-index:-1;pointer-events:none;user-select:none;text-align:center;color:rgb(29 83 113 / 18%);font-size:clamp(7.5rem,22vw,23rem);font-weight:900;letter-spacing:-.075em;line-height:.85;white-space:nowrap}
 .hero-wordmark span{display:block}
-.hero-wordmark span+span{margin-top:.12em}
+.hero-wordmark span+span{margin-top:.12em;font-size:.94em}
 .hero-stage .hero{position:relative;padding-top:6.7rem}
 .hero-stage .hero h1{color:#879aad;font-weight:560;letter-spacing:.025em}
 .hero-stage .hero-black{color:#253e4c;font-weight:550}
@@ -19,6 +19,6 @@
 .hero-stage .hero-orange{color:#b68c74;font-weight:550}
 .hero-stage .hero-description{color:#536b7b}
 .hero-stage .hero-image{box-shadow:0 20px 60px rgb(40 74 94 / 8%)}
-@media(max-width:1100px){.hero-wordmark{top:5rem;font-size:20vw}.hero-stage .hero{padding-top:5.6rem}}
-@media(max-width:760px){.hero-wordmark{top:6rem;font-size:20vw;line-height:.95;color:rgb(29 83 113 / 7%)}.hero-wordmark span+span{margin-top:.25em}.hero-stage .hero{padding-top:4.7rem}}
-@media(max-width:480px){.header .brand{padding:7px 0}.hero-wordmark{top:5.5rem;font-size:20.5vw;line-height:1.05;letter-spacing:-.065em;color:rgb(29 83 113 / 8%)}.hero-wordmark span+span{margin-top:2.4rem}.hero-stage .hero{padding-top:3.1rem}.hero-stage .hero h1{font-size:1.8rem;letter-spacing:.01em}.hero-stage .hero-description{color:#536b7b}}
+@media(max-width:1100px){.hero-wordmark{top:5rem;font-size:22vw}.hero-stage .hero{padding-top:5.6rem}}
+@media(max-width:760px){.hero-wordmark{top:6rem;font-size:22vw;line-height:.95;color:rgb(29 83 113 / 18%)}.hero-wordmark span+span{margin-top:.25em}.hero-stage .hero{padding-top:4.7rem}}
+@media(max-width:480px){.header .brand{padding:7px 0}.hero-wordmark{top:5.5rem;font-size:22vw;line-height:1.05;letter-spacing:-.075em;color:rgb(29 83 113 / 20%)}.hero-wordmark span+span{margin-top:2.4rem}.hero-stage .hero{padding-top:3.1rem}.hero-stage .hero h1{font-size:1.8rem;letter-spacing:.01em}.hero-stage .hero-description{color:#536b7b}}
